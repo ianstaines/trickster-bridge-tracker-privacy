@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Trickster Bridge Tracker</title>
+  <style>
+    body { max-width: 780px; margin: 3rem auto; padding: 0 1.25rem; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; color: #241c12; }
+    h1, h2 { line-height: 1.25; }
+    a { color: #0d5c2e; }
+    li { margin: .35rem 0; }
+  </style>
+</head>
+<body>
+<article>
+  <h1>Privacy Policy — Trickster Bridge Tracker</h1>
+  <p><strong>Last updated: October 12, 2026</strong></p>
+  <p>Trickster Bridge Tracker is a browser extension that records rubber bridge scores and session statistics while you play on Trickster Cards.</p>
+  <p><strong>Developer / contact:</strong> Ian Staines · <a href="mailto:flutest.diffuse-0u@icloud.com">flutest.diffuse-0u@icloud.com</a></p>
+  <h2>Information the extension handles</h2>
+  <p>After you agree to start tracking, the extension reads information displayed on the Trickster Cards bridge table and scorecard that is needed for the tracker:</p>
+  <ul><li>Player display names and seating/partnership information</li><li>Contracts, declarers, tricks/results, vulnerability, and deal scores</li><li>Cards in the deal and derived high-card-point (HCP) values</li><li>Deal time, deal/session identifiers, and tracker version</li><li>Tracker settings, session statistics, and technical diagnostic events</li></ul>
+  <p>The extension does not collect passwords, payment information, contacts, or browsing history. It does not run on other websites.</p>
+  <h2>Where information is stored and sent</h2>
+  <p><strong>In your browser:</strong> Session scores, deal records, player/HCP statistics, settings, and optional diagnostic logs are stored in Chrome extension local storage on your device. The developer does not receive this local data automatically. Diagnostic logs remain local unless you choose to copy, download, or share them.</p>
+  <p><strong>Optional Google Sheets sync:</strong> If you turn on Sheets sync and configure a web-app URL in Settings, each completed deal is sent over HTTPS to that URL. The payload can include the deal/session/date, player names and seats, contract/result, scores, HCP values, card hands in PBN format, notes/outcome, and extension version. The configured endpoint is commonly a Google Apps Script web app that writes to a Google Sheet. The spreadsheet and its access permissions are controlled by the person who configured that endpoint. Google processes information sent to Google services under its own terms and privacy policy. Sync can be disabled in Settings; no deal data is sent to the configured endpoint while it is disabled.</p>
+  <p>The extension does not send tracker data to an analytics, advertising, or developer-operated server. It does not sell user data, use it for advertising, or permit human review of it. If you voluntarily send diagnostic logs or other information to the support address above, the information you include is shared with the developer for support.</p>
+  <h2>Why information is handled</h2>
+  <p>The extension uses the information only to provide its stated function: tracking bridge scores, HCP and partnership statistics, displaying score alignment status, and—if you enable it—recording deals in your configured spreadsheet. The extension requests only the browser access needed to run on Trickster Cards, store tracker data, and support its drawer/side-panel interface and optional Sheets connection.</p>
+  <h2>Retention and deletion</h2>
+  <p>Information stored locally remains in Chrome extension storage until you clear the extension's data or uninstall the extension. Starting a fresh night resets the active session statistics and keeps the partnership history feature described in the extension. It does not delete rows already written to your Google Sheet. To remove synced data, delete it from the spreadsheet or ask its owner.</p>
+  <h2>Security</h2>
+  <p>The extension limits its page access to Trickster Cards and sends optional Sheets requests over HTTPS. Local data is held in Chrome's extension storage on your device. Protect access to your browser profile and any spreadsheet you configure. Anyone with access to the configured spreadsheet may be able to view its contents.</p>
+  <h2>Your choices</h2>
+  <ul><li>You must choose <strong>Agree &amp; start tracking</strong> before the extension begins collecting score and deal information.</li><li>You can leave the consent dialog without starting tracking.</li><li>Sheets sync is optional and can be switched off in Settings.</li><li>You can clear diagnostic logs in the extension's Settings &amp; Diagnostics view.</li><li>You can clear extension storage through Chrome or uninstall the extension to remove locally stored tracker data.</li></ul>
+  <h2>Chrome Web Store Limited Use statement</h2>
+  <p>Trickster Bridge Tracker's use and transfer of information received from the browser and Trickster Cards is limited to providing or improving the extension's single purpose and user-facing features. The extension does not sell this information, use it for advertising, or transfer it for unrelated purposes. Optional transfer to the Google Apps Script/Google Sheets endpoint configured by the user is used only to save bridge deal records at the user's direction.</p>
+  <h2>Changes to this policy</h2>
+  <p>If the extension's data practices change, this policy will be updated and users will be informed through the extension before the changed collection or use begins.</p>
+  <h2>Contact</h2>
+  <p>Questions or privacy requests: <a href="mailto:flutest.diffuse-0u@icloud.com">flutest.diffuse-0u@icloud.com</a></p>
+</article>
+</body>
+</html>
